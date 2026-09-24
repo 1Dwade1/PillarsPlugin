@@ -1,0 +1,43 @@
+name: Pillars
+version: '1.0'
+main: dev.quantik.pillars.Pillars
+api-version: '1.16'
+author: QUANTIK
+description: Плагин для мини-игры "Столбы"
+depend: [Citizens, PlaceholderAPI, HolographicDisplays, PlayerPoints]
+commands:
+  pillars:
+    description: Мини-игра Столбы.
+    usage: /pillars <subcommand>
+
+permissions:
+  pillars.commands.pillars.join:
+    description: Присоединение к арене.
+    default: true
+  pillars.commands.pillars.create:
+    description: Создание арены.
+    default: op
+  pillars.commands.pillars.delete:
+    description: Удаление арены.
+    default: op
+  pillars.commands.pillars.setenabled:
+    description: Включение/выключение арены.
+    default: op
+  pillars.commands.pillars.quit:
+    description: Выход с арены.
+    default: true
+  pillars.commands.pillars.setlobby:
+    description: Установка точки лобби.
+    default: op
+  pillars.commands.pillars.setnpc:
+    description: Создание NPC
+    default: op
+  pillars.commands.pillars.settoppos:
+    description: Задание точки топ 10 игроков
+    default: op
+  pillars.commands.pillars.setstatspos:
+    description: Задание точки для статистики игрока
+    default: op
+  pillars.commands.pillars.reload:
+    description: Перезагрузка плагина
+    default: op
