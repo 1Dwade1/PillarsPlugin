@@ -20,7 +20,7 @@
 
 ## Установка
 
-1. Скачайте `Pillars.jar` из [Releases](https://github.com/1Dwade1/SXPillars/releases) или соберите сами
+1. Скачайте `Pillars.jar` из [Releases](https://github.com/1Dwade1/PillarsPlugin/releases) или соберите сами
 2. Установите все обязательные зависимости: Citizens, PlaceholderAPI, HolographicDisplays, PlayerPoints
 3. Поместите JAR в папку `plugins/`
 4. Перезапустите сервер
@@ -176,4 +176,4 @@ mvn clean package
 
 ## Поддержка
 
-- Issues: [GitHub Issues](https://github.com/1Dwade1/SXPillars/issues)
+- Issues: [GitHub Issues](https://github.com/1Dwade1/PillarsPlugin/issues)
